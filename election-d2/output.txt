@@ -1,0 +1,26 @@
+/Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=54686:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath /Users/LukeTrembley/IdeaProjects/Election'd2.0/out/production/Election'd2.0 Main
+President
+Golding,Mordy = 70
+Gotshalk, Shira = 61
+Evans, Stephanie = 54
+Villalobros, Ray = 57
+ 
+Vice President
+Sarkar, Dona = 66
+Ahn, Tyler = 64
+Camp, Joe = 57
+LeBlanc, Brandon = 55
+ 
+Secretary
+Howard, Jason = 66
+Rubino, Nikki = 64
+Fisher, Peggy = 53
+Edde, Neil = 59
+ 
+Treasurer
+Gassner, David = 60
+Bennett, Sharon = 50
+Ritscher, Walt = 67
+Hurley, Heather = 65
+
+Process finished with exit code 0
