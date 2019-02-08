@@ -1,0 +1,7 @@
+/Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/bin/java "-javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=54046:/Applications/IntelliJ IDEA CE.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath /Users/LukeTrembley/IdeaProjects/Number'd/out/production/Number'd Main
+0: (Binary)000000000(Octal)000000000(Hex)000000000
+1: (Binary)000000001(Octal)000000001(Hex)000000001
+63: (Binary)000111111(Octal)000000070(Hex)000000030
+127: (Binary)001111111(Octal)000000100(Hex)000000070
+255: (Binary)011111111(Octal)000000300(Hex)0000000150
+256: (Binary)100000000(Octal)000000400(Hex)000000100
