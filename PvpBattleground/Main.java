@@ -1,3 +1,4 @@
+import java.sql.SQLOutput;
 import java.util.ArrayList;
 
 public class Main {
@@ -13,6 +14,24 @@ public class Main {
 
         for(PlayerCharacter x : players){
             if(x instanceof Priest){
+                System.out.println("Here is a Priest:");
+                x.showStats();
+                x.die();
+                System.out.println();
+            }else if(x instanceof Paladin){
+                System.out.println("Here is a Paladin:");
+                x.showStats();
+                x.die();
+                System.out.println();
+            }else if(x instanceof Mage){
+                System.out.println("Here is a Mage:");
+                x.showStats();
+                x.die();
+                System.out.println();
+            }else if(x instanceof Fighter){
+                System.out.println("Here is a Fighter");
+                x.showStats();
+                x.die();
                 System.out.println();
             }
         }

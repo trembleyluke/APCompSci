@@ -10,10 +10,14 @@ public abstract class PlayerCharacter {
     protected int mp,mpmax;
 
     private static int count;
+    protected static boolean die= false;
 
     public PlayerCharacter(){
         System.out.println("A new player is created!");
         count++;
+        if(hp <= 0){
+            die = true;
+        }
 
     }
     public void showStats(){
@@ -23,5 +27,10 @@ public abstract class PlayerCharacter {
     }
     public static int numCharacters(){
         return count;
+    }
+    public static void die(){
+        if (die){
+            System.out.println("This character is dead");
+        }
     }
 }
